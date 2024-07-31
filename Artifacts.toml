@@ -1,0 +1,12 @@
+[[pocl]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c69d9b89aaafa168455b837da9ce9658d64fb345"
+lazy = true
+libc = "glibc"
+llvm_version = "15"
+os = "linux"
+
+    [[pocl.download]]
+    sha256 = "ece5b936941d69e1ed3dd5f3cb8a1173bdfeac15e49af91c2336e4cd2b604262"
+    url = "https://github.com/maleadt/pocl_jll.jl/releases/download/pocl-v6.0.0+1/pocl.v6.0.0.x86_64-linux-gnu-cxx03-llvm_version+15.tar.gz"
