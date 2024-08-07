@@ -22,3 +22,13 @@ os = "linux"
     [[pocl.download]]
     sha256 = "bcad7fd95a6f89328474e30090374df99e1afcfa686fec449bfbba96dccd5429"
     url = "https://github.com/maleadt/pocl_jll.jl/releases/download/pocl-v6.0.0+1/pocl.v6.0.0.x86_64-linux-gnu-cxx11-llvm_version+15.tar.gz"
+[[pocl]]
+arch = "aarch64"
+git-tree-sha1 = "9220a2cd5f08bde4a4ed8f5c18130f9addbc1db7"
+lazy = true
+llvm_version = "15.asserts"
+os = "macos"
+
+    [[pocl.download]]
+    sha256 = "896fc40f6d07fe20e6bad916c55d9cb40d81ab45832ccc06a822831af1305032"
+    url = "https://github.com/maleadt/pocl_jll.jl/releases/download/pocl-v6.0.0+2/pocl.v6.0.0.aarch64-apple-darwin-llvm_version+15.asserts.tar.gz"
