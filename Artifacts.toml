@@ -22,3 +22,15 @@ os = "linux"
     [[pocl.download]]
     sha256 = "fcf1b02fafab71f8c1765a1cb5c898745737e55161e7cd744344b15edc2635d1"
     url = "https://github.com/maleadt/pocl_jll.jl/releases/download/pocl-v6.0.0+6/pocl.v6.0.0.x86_64-linux-gnu-cxx11-llvm_version+14.asserts.tar.gz"
+[[pocl]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "93580f6a5f51928d72a21cf39d3dce3e16fac756"
+lazy = true
+libc = "glibc"
+llvm_version = "16"
+os = "linux"
+
+    [[pocl.download]]
+    sha256 = "5705a958b30dcb361025df16a5629ca917028fd0ed3bca548068820011c3b0a9"
+    url = "https://github.com/maleadt/pocl_jll.jl/releases/download/pocl-v6.0.0+6/pocl.v6.0.0.x86_64-linux-gnu-cxx11-llvm_version+16.tar.gz"

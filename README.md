@@ -17,7 +17,7 @@ The tarballs for `pocl_jll.jl` have been built from these sources:
 
 `pocl_jll.jl` is available for the following platforms:
 
-* `Linux x86_64 {cxxstring_abi=cxx11, libc=glibc, llvm_version=14.asserts}` (`x86_64-linux-gnu-cxx11-llvm_version+14.asserts`)
+* `Linux x86_64 {cxxstring_abi=cxx11, libc=glibc, llvm_version=16}` (`x86_64-linux-gnu-cxx11-llvm_version+16`)
 
 ## Dependencies
 
