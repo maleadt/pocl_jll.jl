@@ -45,3 +45,12 @@ os = "windows"
     [[pocl.download]]
     sha256 = "0089ca6264ff36ed2f1f10c29c2b86a1b817599b013198ca359c882daf5655d1"
     url = "https://github.com/maleadt/pocl_jll.jl/releases/download/pocl-v6.0.0+8/pocl.v6.0.0.x86_64-w64-mingw32-cxx11-llvm_version+16.tar.gz"
+[[pocl]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1cd0aa8d99e38ca2e09c87d04eb8411bafbb0d99"
+os = "windows"
+
+    [[pocl.download]]
+    sha256 = "67e74bad45148b1e71ed5c608d950c907663d87c290b653569504f637565699f"
+    url = "https://github.com/maleadt/pocl_jll.jl/releases/download/pocl-v7.0.0+10/pocl.v7.0.0.x86_64-w64-mingw32-cxx11.tar.gz"
